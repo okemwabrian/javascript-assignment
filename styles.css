@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #f0f0f0;
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+#myChart {
+    background-color: black;
+    padding: 10px;
+        max-width: 100%;
+        max-height: 100%;
+        width: 200px; 
+        height: 400px; 
+        margin: 0 auto;
+        display: block;
+    }
+    
